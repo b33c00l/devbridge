@@ -1,0 +1,641 @@
+/* line 20, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+* {
+  font-family: "Trebuchet MS";
+}
+
+/* line 23, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background: #e6e6e6;
+}
+
+/* line 28, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 32, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+li {
+  margin: 0;
+  padding: 0;
+  color: #4e4e4e;
+}
+
+/* line 37, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+p {
+  color: #4e4e4e;
+}
+
+/* line 40, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+h2 {
+  font-family: "Times New Roman";
+}
+
+/* line 43, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+h3 {
+  font-family: "Times New Roman";
+}
+
+/* line 46, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+.wrapper {
+  width: 96%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+/* line 52, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header {
+  background-color: #d3135a;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+/* line 56, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .top-menu {
+  display: block;
+  font-size: 14px;
+  padding-top: 0;
+  float: right;
+}
+
+/* line 61, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .top-menu h2 {
+  line-height: 0;
+  margin: 0;
+  text-indent: -10000px;
+}
+
+/* line 66, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .top-menu ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 71, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .top-menu li {
+  list-style-type: none;
+  float: left;
+  margin-left: 20px;
+  margin-top: 38px;
+}
+
+/* line 77, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .top-menu a {
+  text-decoration: none;
+  color: #682840;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* line 84, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header h1 {
+  display: inline;
+  font-size: 60px;
+  color: #ffc2dd;
+  float: left;
+  padding: 6% 0 0;
+  margin: 0 0 1% 0;
+}
+
+/* line 93, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .bottom-menu h2 {
+  line-height: 0;
+  margin: 0;
+  text-indent: -10000px;
+}
+
+/* line 98, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .bottom-menu ul {
+  clear: right;
+  float: right;
+  margin: 0;
+  margin-top: 4%;
+}
+
+/* line 103, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .bottom-menu ul ul:after {
+  content: '';
+  display: block;
+  border-color: transparent transparent #4d4d4d transparent;
+  border-style: solid;
+  border-width: 10px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -10px;
+}
+
+/* line 115, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .bottom-menu li {
+  position: relative;
+  list-style-type: none;
+  float: left;
+  margin-left: 30px;
+}
+
+/* line 120, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .bottom-menu li ul {
+  position: absolute;
+  right: -33px;
+  top: 42px;
+  display: none;
+  margin: 0;
+  padding: 0;
+  background-color: #4d4d4d;
+}
+
+/* line 128, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .bottom-menu li ul li {
+  display: block;
+  width: 140px;
+  padding: 4px 0 4px 10px;
+  margin: 0;
+  float: none;
+}
+
+/* line 134, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .bottom-menu li ul li:hover {
+  background-color: #666;
+}
+
+/* line 137, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .bottom-menu li ul li a {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* line 140, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .bottom-menu li ul li a:hover {
+  color: #fff;
+}
+
+/* line 146, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .bottom-menu li:hover ul {
+  display: block;
+}
+
+/* line 150, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .bottom-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* line 155, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header .bottom-menu a:hover {
+  color: #682840;
+}
+
+/* line 160, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+header:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* line 167, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+section .left {
+  float: left;
+  width: 66%;
+}
+
+/* line 171, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+section .left-part {
+  padding: 0 4% 5% 3.5%;
+  margin: 0;
+  background-color: #fff;
+  float: left;
+  width: 92.5%;
+  margin-top: 5%;
+}
+
+/* line 178, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+section .left-part h2 {
+  font-size: 37.5px;
+  padding: 3% 0 0;
+  margin: 0;
+}
+
+/* line 183, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+section .left-part li {
+  font-size: 14px;
+  list-style: none;
+  line-height: 1.4em;
+  word-break: break-all;
+}
+
+/* line 191, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+section:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* line 198, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+aside .right-part {
+  float: left;
+  width: 32%;
+  padding: 0 0 3% 2%;
+  margin-top: 2%;
+}
+
+/* line 203, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+aside .right-part h3 {
+  font-size: 24px;
+  margin: 5% 30% 0 0;
+}
+
+/* line 207, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+aside .right-part p {
+  padding: 3% 0;
+  font-size: 14px;
+  border-top: 3px solid #000;
+  line-height: 1.6em;
+}
+
+/* line 213, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+aside .right-part form {
+  padding: 4% 0;
+  font-size: 14px;
+  border: 1px solid #c7c7c7;
+}
+
+/* line 218, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+aside .right-part ul {
+  width: 80%;
+  padding: 0 10%;
+  list-style: none;
+}
+
+/* line 223, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+aside .right-part li {
+  font-weight: bold;
+  padding: 3% 0;
+}
+
+/* line 227, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+aside .right-part input {
+  padding: 2% 0;
+  width: 100%;
+  margin: 1% 0;
+}
+
+/* line 232, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+aside .right-part textarea {
+  padding: 2% 0;
+  width: 100%;
+  margin: 1% 0;
+}
+
+/* line 237, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+aside .right-part button {
+  background-color: #d3135a;
+  padding: 5% 10%;
+  color: #fff;
+  letter-spacing: 4px;
+}
+
+/* line 246, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+article .left-article {
+  float: left;
+  font-size: 14px;
+  line-height: 1.6em;
+  width: 42.75%;
+  margin-top: 3%;
+  padding: 1% 1% 1% 3.5%;
+  background-color: #fff;
+}
+
+/* line 255, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+article .right-article {
+  float: left;
+  font-size: 14px;
+  line-height: 1.6em;
+  width: 42.75%;
+  margin: 3% 0 0 3%;
+  padding: 1% 3.5% 3% 3.5%;
+  background-color: #fff;
+}
+
+/* line 263, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+article .right-article ul {
+  list-style: none;
+}
+
+/* line 266, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+article .right-article h2 {
+  font-size: 24px;
+}
+
+/* line 269, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+article .right-article li {
+  line-height: 2.0em;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+/* line 272, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+article .right-article li:nth-child(3) {
+  border-bottom: none;
+}
+
+/* line 275, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+article .right-article li a {
+  text-decoration: none;
+  color: #6aa7d4;
+}
+
+/* line 283, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+.bottom-section li {
+  margin-top: 2%;
+  background-color: #ccc;
+  list-style: none;
+  float: left;
+  font-size: 14px;
+  width: 28%;
+  padding: 1% 3% 1% 2%;
+  word-break: all;
+  line-height: 1.6em;
+}
+
+/* line 294, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+.bottom-section li:nth-child(2) {
+  float: left;
+  padding: 1% 3%;
+}
+
+/* line 299, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+.bottom-section:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* line 305, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+footer {
+  background-color: #666;
+  margin: 1% auto;
+  max-width: 1150px;
+}
+
+/* line 309, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+footer .top-menu {
+  font-size: 14px;
+  margin: 0 0 1% 0;
+  padding: 1.5% 0 2% 0;
+}
+
+/* line 313, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+footer .top-menu h2 {
+  line-height: 0;
+  margin: 0;
+  text-indent: -10000px;
+}
+
+/* line 318, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+footer .top-menu li {
+  list-style-type: none;
+  float: left;
+}
+
+/* line 321, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+footer .top-menu li:not(:first-child)::before {
+  content: " |";
+  color: #fff;
+}
+
+/* line 326, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+footer .top-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* line 336, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+footer .text li {
+  width: 85%;
+  list-style: none;
+  display: inline-block;
+  padding: 0 0 1% 0;
+}
+
+/* line 342, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+footer .text p {
+  width: 85%;
+  text-decoration: none;
+  color: #9a9a9a;
+  font-size: 12px;
+  float: left;
+}
+
+/* line 349, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+footer .text h2 {
+  float: right;
+  padding: 1% 0 0;
+  font-size: 31px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 358, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  p {
+    font-size: 16px !important;
+  }
+  /* line 362, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 367, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header .top-menu {
+    width: 100%;
+  }
+  /* line 369, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header .top-menu ul {
+    display: block;
+  }
+  /* line 372, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header .top-menu li {
+    width: 33%;
+    text-align: center;
+    margin: 0;
+    padding: 2% 0;
+  }
+  /* line 377, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header .top-menu li a {
+    font-size: 20px !important;
+  }
+  /* line 383, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header .bottom-menu ul {
+    width: 100%;
+    clear: both;
+  }
+  /* line 386, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header .bottom-menu ul ul:after {
+    border: none;
+  }
+  /* line 390, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header .bottom-menu li {
+    text-align: center;
+    float: none;
+    width: 100%;
+    padding: 1% 0;
+    margin: 0;
+    letter-spacing: 10px;
+    position: static;
+  }
+  /* line 398, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header .bottom-menu li a {
+    font-size: 20px !important;
+  }
+  /* line 401, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header .bottom-menu li ul {
+    position: static;
+    display: none;
+  }
+  /* line 404, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header .bottom-menu li ul li {
+    width: 100%;
+    padding: 1% 0;
+  }
+  /* line 407, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header .bottom-menu li ul li a {
+    font-size: 16px !important;
+    font-weight: normal;
+    letter-spacing: normal;
+  }
+  /* line 414, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  header .bottom-menu li:not(:last-child) {
+    border-bottom: 1px solid #fff;
+  }
+  /* line 421, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  section .left {
+    width: 100%;
+  }
+  /* line 424, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  section .left-article {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 427, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  section .left-article p {
+    padding: 0 2% 4%;
+    margin: 0;
+  }
+  /* line 432, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  section .right-article {
+    width: 100%;
+    padding: 0 0 4% 0;
+    margin: 4% 0 0;
+  }
+  /* line 436, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  section .right-article h2 {
+    text-align: center;
+  }
+  /* line 439, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  section .right-article li {
+    padding: 0 0 0 2%;
+    text-align: center;
+  }
+  /* line 444, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  section .left-part h2 {
+    text-align: center;
+  }
+  /* line 449, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  footer .text {
+    text-align: center;
+  }
+  /* line 451, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  footer .text li {
+    width: 80%;
+    padding: 0 10%;
+  }
+  /* line 455, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  footer .text p {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 459, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  footer .text h2 {
+    float: inherit;
+    text-align: center;
+    margin: 0;
+  }
+  /* line 465, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  footer .top-menu {
+    margin-top: 5%;
+  }
+  /* line 467, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  footer .top-menu li {
+    text-align: center;
+    letter-spacing: 10px;
+    padding: 1.5%;
+  }
+  /* line 471, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  footer .top-menu li:nth-child(odd) {
+    padding: 1% 5%;
+    width: 40%;
+  }
+  /* line 475, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  footer .top-menu li:nth-child(even) {
+    padding: 1% 5%;
+    width: 40%;
+  }
+  /* line 479, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  footer .top-menu li:not(:first-child)::before {
+    content: " ";
+  }
+  /* line 485, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  li a {
+    font-size: 16px !important;
+  }
+  /* line 488, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  aside .right-part {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 491, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  aside .right-part h3 {
+    padding: 0;
+    margin: 5% 0 0;
+    text-align: center;
+  }
+  /* line 496, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  aside .right-part input::placeholder {
+    text-align: center;
+  }
+  /* line 499, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  aside .right-part button {
+    padding: 3%;
+    width: 100%;
+    font-size: 16px;
+  }
+  /* line 505, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  .bottom-section li {
+    width: 96%;
+    padding: 0 2% 0 2% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* line 512, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  footer .top-menu li:nth-child(odd) {
+    padding: 2%;
+    width: 96%;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  /* line 517, /Applications/XAMPP/xamppfiles/htdocs/Devbridge/SASS/style.scss */
+  footer .top-menu li:nth-child(even) {
+    padding: 2%;
+    width: 96%;
+    border-bottom: 1px solid #e6e6e6;
+  }
+}
+
+/*# sourceMappingURL=../CSS/style.map */
